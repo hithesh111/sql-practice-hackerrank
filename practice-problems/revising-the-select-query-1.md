@@ -7,5 +7,7 @@ The CITY table is described as follows:
 QUERY:
 
 SELECT *
+
 FROM CITY
+
 WHERE COUNTRYCODE = 'USA' AND POPULATION > 100000
